@@ -1,0 +1,30 @@
+
+.productList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pagination {
+    margin: 8px 0 8px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.pageNumber {
+    cursor: pointer;
+    padding: 4px;
+    background-color: moccasin;
+    border-radius: 4px;
+}
+
+.activePageNumber {
+    background-color: aqua;
+}
+
+.sort {
+    margin-left: 16px;
+}
+

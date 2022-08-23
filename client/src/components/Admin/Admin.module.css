@@ -1,0 +1,48 @@
+.database {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 300px;
+}
+
+.dashboard {
+    justify-content: space-between;
+    margin: 32px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    min-width: 300px;
+}
+
+.reviewList {
+    margin-top: 8px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid gray;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding: 8px;
+}
+
+.reviewAction {
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.reviewAction:hover {
+    background-color: bisque;
+}
+
+.update {
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+
+
+.productCard {
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-width: 600px;
+    min-height: 150px;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.price::after {
+    content: " ₽";
+}
+
+.reviewLink {
+    margin: 12px 0 12px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    background-color: mistyrose;
+    border-radius: 4px;
+    padding: 4px 16px;
+
+}

@@ -1,0 +1,10 @@
+
+.productForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    gap: 8px;
+    margin-top: 150px;
+    
+}

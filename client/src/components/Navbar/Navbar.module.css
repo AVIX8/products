@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    height: 24px;
+    padding: 16px;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+.active {
+    color: black;
+}
